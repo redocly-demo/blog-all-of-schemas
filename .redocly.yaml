@@ -1,0 +1,14 @@
+apis:
+  address@blog-demo:
+    root: ./openapi.yaml
+
+lint:
+  extends:
+    - minimal
+
+features.openapi:
+  generateCodeSamples:
+    languages:
+      - lang: curl
+      - lang: JavaScript
+      - lang: Python
