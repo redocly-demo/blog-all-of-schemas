@@ -64,6 +64,22 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Address"
+              examples:
+                corporate:
+                  summary: Redocly HQ
+                  value:
+                    id: 123-hq
+                    line1: Redocly HQ
+                    line2: Suite 72
+                    city: Austin
+                ukraine:
+                  summary: Redocly Lviv
+                  value:
+                    id: 456-lviv
+                    line1: 123 City Center
+                    line2: 3rd Floor
+                    city: Lviv
+                
 components:
   schemas:
     Address:
