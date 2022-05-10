@@ -43,6 +43,20 @@ paths:
           application/json:
             schema:
               $ref: "#/components/schemas/Address"
+            examples:
+              corporate:
+                summary: Redocly HQ
+                value:
+                  line1: Redocly HQ
+                  line2: Suite 72
+                  city: Austin
+              ukraine:
+                summary: Redocly Lviv
+                value:
+                  line1: 123 City Center
+                  line2: 3rd Floor
+                  city: Lviv
+                  
       responses:
         '200':
           description: Address updated
